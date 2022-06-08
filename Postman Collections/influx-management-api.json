@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "Show Databases",
-			"_postman_id": "9eb58844-2e57-4a34-8e80-d4041e63042c",
+			"id": "9eb58844-2e57-4a34-8e80-d4041e63042c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -34,7 +34,7 @@
 		},
 		{
 			"name": "Create Database",
-			"_postman_id": "ee33a70c-9674-4839-8d00-8c4372fc82e4",
+			"id": "ee33a70c-9674-4839-8d00-8c4372fc82e4",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -61,7 +61,7 @@
 		},
 		{
 			"name": "Remove Database",
-			"_postman_id": "3eb214d6-180d-450b-8833-cab2374cde16",
+			"id": "3eb214d6-180d-450b-8833-cab2374cde16",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -88,7 +88,7 @@
 		},
 		{
 			"name": "Show Measurement",
-			"_postman_id": "1716ee60-e5e8-47b3-9bd1-d3bc3f45ab43",
+			"id": "1716ee60-e5e8-47b3-9bd1-d3bc3f45ab43",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -119,7 +119,7 @@
 		},
 		{
 			"name": "Remove Measurement",
-			"_postman_id": "db3c0de9-6ccd-4f1f-819e-a3b9731734d0",
+			"id": "db3c0de9-6ccd-4f1f-819e-a3b9731734d0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -150,7 +150,7 @@
 		},
 		{
 			"name": "Change Retention Policy",
-			"_postman_id": "dd3adc8e-1a2c-4360-9fbc-066568a2e485",
+			"id": "dd3adc8e-1a2c-4360-9fbc-066568a2e485",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -177,7 +177,7 @@
 		},
 		{
 			"name": "Show Grants",
-			"_postman_id": "af7fbe8b-fd98-4870-b745-b05dde2c9e3a",
+			"id": "af7fbe8b-fd98-4870-b745-b05dde2c9e3a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -211,7 +211,7 @@
 		},
 		{
 			"name": "Show Grants Copy",
-			"_postman_id": "c89b826f-9ce2-420f-a049-df335eca142d",
+			"id": "c89b826f-9ce2-420f-a049-df335eca142d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -245,7 +245,7 @@
 		},
 		{
 			"name": "Show Users",
-			"_postman_id": "c344e482-df7c-42bd-9911-e381d39d8413",
+			"id": "c344e482-df7c-42bd-9911-e381d39d8413",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -271,8 +271,8 @@
 			"response": []
 		},
 		{
-			"name": "Show Users Copy",
-			"_postman_id": "3881abb9-9750-41a6-82b5-69bf34e8e42d",
+			"name": "Create",
+			"id": "3881abb9-9750-41a6-82b5-69bf34e8e42d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -329,34 +329,29 @@
 	],
 	"variable": [
 		{
-			"id": "df41186b-3de6-4fa4-88fd-bf80610027a2",
+			"id": "3e0e28a0-b26a-428e-a0b1-523b9beeea79",
 			"key": "newDbName",
-			"value": "IIoTandCPS",
-			"type": "string"
+			"value": "IIoTandCPS"
 		},
 		{
-			"id": "0dfd460b-c391-4074-ae44-170473b44b17",
+			"id": "7b1c5171-b1cc-4ab4-8935-cbd3c36cc13c",
 			"key": "db",
-			"value": "IIoTandCPS",
-			"type": "string"
+			"value": "IIoTandCPS"
 		},
 		{
-			"id": "85b170bc-54b4-4ef3-9c8b-1ed04da9e813",
+			"id": "becbf0ff-5b06-427d-bfbb-944697f08a1e",
 			"key": "host",
-			"value": "http://docencia.i4techlab.upc.edu:8086",
-			"type": "string"
+			"value": "http://docencia.i4techlab.upc.edu:8086"
 		},
 		{
-			"id": "29d27df7-418d-40e1-a759-13dd2d7d0b2a",
+			"id": "ee2fcd6a-44a1-41e2-9f0b-235221a4a399",
 			"key": "user",
-			"value": "admin",
-			"type": "string"
+			"value": "admin"
 		},
 		{
-			"id": "4d93ffe3-46af-4a02-8b50-cbc44c6160c2",
+			"id": "fc25d6da-b3d2-48cd-bde9-40ec716a60fb",
 			"key": "measurement",
-			"value": "IIoTandCPS",
-			"type": "string"
+			"value": "IIoTandCPS"
 		}
 	]
 }
