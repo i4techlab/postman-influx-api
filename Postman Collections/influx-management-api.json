@@ -45,7 +45,7 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{host}}/query?q=create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'",
+							"raw": "{{host}}/query?q=create user {{newUser}} with password '{{newUserPassword}}'",
 							"host": [
 								"{{host}}"
 							],
@@ -55,7 +55,7 @@
 							"query": [
 								{
 									"key": "q",
-									"value": "create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'"
+									"value": "create user {{newUser}} with password '{{newUserPassword}}'"
 								}
 							]
 						}
@@ -335,37 +335,37 @@
 	],
 	"variable": [
 		{
-			"id": "14a0ff4c-bb13-4601-adf9-f8654b9e7377",
+			"id": "5af628e3-0af7-4400-8b97-990f1fb6a645",
 			"key": "newDbName",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "69c96e12-b4da-45e6-90fc-c7b0ead1eac8",
+			"id": "7e86dac0-b52c-4d80-b26c-657fb8b68947",
 			"key": "db",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "35e9a354-ee46-4cc6-9f29-be427cb293e6",
+			"id": "178a136e-8fde-4838-8b79-7688a4fa693c",
 			"key": "host",
 			"value": "http://docencia.i4techlab.upc.edu:8086"
 		},
 		{
-			"id": "8cb27c9b-262f-4585-b985-b74c0cba829a",
+			"id": "01eeeea4-b5a5-47f3-84ff-6864bfdb153e",
 			"key": "user",
 			"value": "admin"
 		},
 		{
-			"id": "dc17153a-fe25-47df-922c-309ee7aca4a3",
+			"id": "b31d13b0-1a52-48d1-a771-9e5b88672d28",
 			"key": "measurement",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "03ee0bf7-ae0c-4f04-9390-0289994f3d70",
+			"id": "84322a83-ee0c-405c-bf19-664c48304382",
 			"key": "newUser",
 			"value": "tfg_aleixvilar "
 		},
 		{
-			"id": "6bb13eba-bbc4-473a-b8a8-7f9d9dd267c8",
+			"id": "d3f90e7e-4a55-4680-b604-5b18f44218a1",
 			"key": "newUserPassword",
 			"value": "MrxnB6DtDYRnPbLy"
 		}
