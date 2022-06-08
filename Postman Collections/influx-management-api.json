@@ -1,0 +1,362 @@
+{
+	"info": {
+		"_postman_id": "3df85feb-b89b-4d3f-93ea-0afcf6f4e1cd",
+		"name": "docencia-influxdb-management-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Show Databases",
+			"_postman_id": "9eb58844-2e57-4a34-8e80-d4041e63042c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?q=show databases",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "show databases"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Database",
+			"_postman_id": "ee33a70c-9674-4839-8d00-8c4372fc82e4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?q=create database {{newDbName}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "create database {{newDbName}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Database",
+			"_postman_id": "3eb214d6-180d-450b-8833-cab2374cde16",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?q=drop database {{newDbName}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "drop database {{newDbName}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show Measurement",
+			"_postman_id": "1716ee60-e5e8-47b3-9bd1-d3bc3f45ab43",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?q=show measurements &db={{db}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "show measurements "
+						},
+						{
+							"key": "db",
+							"value": "{{db}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Measurement",
+			"_postman_id": "db3c0de9-6ccd-4f1f-819e-a3b9731734d0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?db={{db}}&q=drop measurement {{measurement}} ",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "db",
+							"value": "{{db}}"
+						},
+						{
+							"key": "q",
+							"value": "drop measurement {{measurement}} "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change Retention Policy",
+			"_postman_id": "dd3adc8e-1a2c-4360-9fbc-066568a2e485",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?q=alter retention policy autogen on {{db}} duration 168h shard duration 1h",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "alter retention policy autogen on {{db}} duration 168h shard duration 1h"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show Grants",
+			"_postman_id": "af7fbe8b-fd98-4870-b745-b05dde2c9e3a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "rsnz4KvoVvrpMSngZvvZ7JETnsXAX5Y",
+						"username": "admin"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?q=show grants for {{user}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "show grants for {{user}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show Grants Copy",
+			"_postman_id": "c89b826f-9ce2-420f-a049-df335eca142d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": {
+						"password": "rsnz4KvoVvrpMSngZvvZ7JETnsXAX5Y",
+						"username": "admin"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?q=grant ALL on tfg_aleixvilar to {{user}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "grant ALL on tfg_aleixvilar to {{user}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show Users",
+			"_postman_id": "c344e482-df7c-42bd-9911-e381d39d8413",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?q=show users",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "show users"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show Users Copy",
+			"_postman_id": "3881abb9-9750-41a6-82b5-69bf34e8e42d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/query?q=create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": {
+			"password": "rsnz4KvoVvrpMSngZvvZ7JETnsXAX5Y",
+			"username": "admin"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "cc2b282e-941e-4384-b8fb-fe79df795e35",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "51a9e78c-3e4c-4b17-af50-c6d02d3e807f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "df41186b-3de6-4fa4-88fd-bf80610027a2",
+			"key": "newDbName",
+			"value": "IIoTandCPS",
+			"type": "string"
+		},
+		{
+			"id": "0dfd460b-c391-4074-ae44-170473b44b17",
+			"key": "db",
+			"value": "IIoTandCPS",
+			"type": "string"
+		},
+		{
+			"id": "85b170bc-54b4-4ef3-9c8b-1ed04da9e813",
+			"key": "host",
+			"value": "http://docencia.i4techlab.upc.edu:8086",
+			"type": "string"
+		},
+		{
+			"id": "29d27df7-418d-40e1-a759-13dd2d7d0b2a",
+			"key": "user",
+			"value": "admin",
+			"type": "string"
+		},
+		{
+			"id": "4d93ffe3-46af-4a02-8b50-cbc44c6160c2",
+			"key": "measurement",
+			"value": "IIoTandCPS",
+			"type": "string"
+		}
+	]
+}
