@@ -7,7 +7,35 @@
 	"item": [
 		{
 			"name": "Users",
-			"item": [],
+			"item": [
+				{
+					"name": "Create",
+					"id": "3881abb9-9750-41a6-82b5-69bf34e8e42d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/query?q=create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "1b46b469-3895-45ee-89aa-1794e6bf5298"
 		},
 		{
@@ -274,33 +302,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "Create",
-			"id": "3881abb9-9750-41a6-82b5-69bf34e8e42d",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "{{host}}/query?q=create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'",
-					"host": [
-						"{{host}}"
-					],
-					"path": [
-						"query"
-					],
-					"query": [
-						{
-							"key": "q",
-							"value": "create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'"
-						}
-					]
-				}
-			},
-			"response": []
 		}
 	],
 	"auth": {
@@ -334,27 +335,27 @@
 	],
 	"variable": [
 		{
-			"id": "530a16a1-86e6-40eb-8a35-fcf10f8e9681",
+			"id": "dbdd1efa-c0b6-4ffe-a432-942c6ff7748f",
 			"key": "newDbName",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "5c354ca4-c045-491b-9137-a611556d048d",
+			"id": "688912f0-8d34-4b1f-8c8e-deb46627e065",
 			"key": "db",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "b9ebf372-ca7a-4f37-9be2-7ed87fa564b0",
+			"id": "c8e69be2-c353-4615-b39a-777befd2a543",
 			"key": "host",
 			"value": "http://docencia.i4techlab.upc.edu:8086"
 		},
 		{
-			"id": "59bbf6d9-afca-414e-96d3-fa2f2f0b6d2f",
+			"id": "4bedb29f-42db-42a6-80ac-16842d05a7b3",
 			"key": "user",
 			"value": "admin"
 		},
 		{
-			"id": "b6e95e60-7cfb-4787-8e47-741b7639bd2d",
+			"id": "98ecece6-679c-454b-8e34-8aae03cf3b05",
 			"key": "measurement",
 			"value": "IIoTandCPS"
 		}
