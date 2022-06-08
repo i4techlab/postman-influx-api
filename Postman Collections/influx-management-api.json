@@ -334,27 +334,27 @@
 	],
 	"variable": [
 		{
-			"id": "6a17bef4-c0ce-4371-ac01-b01d3abab380",
+			"id": "4583a76a-cf1c-47ee-8640-b5782ed8dbc5",
 			"key": "newDbName",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "abd58d22-5c30-43ec-aca6-d02ed111f3e3",
+			"id": "ce391936-dac9-4cd0-8f07-01da672d334b",
 			"key": "db",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "bbee45ee-01ea-4299-a04d-cbf4251971ca",
+			"id": "02d25681-5284-4730-aca9-aa1accea7e6f",
 			"key": "host",
 			"value": "http://docencia.i4techlab.upc.edu:8086"
 		},
 		{
-			"id": "a74422b5-567b-4afd-ac61-918f8a1730c7",
+			"id": "56b33ed5-5025-4e56-93f1-d0d97e693aaf",
 			"key": "user",
 			"value": "admin"
 		},
 		{
-			"id": "3f235494-8ace-41e6-a92b-3060c31eacc0",
+			"id": "89af9967-242d-4b86-9976-eeedeedde6bc",
 			"key": "measurement",
 			"value": "IIoTandCPS"
 		}
