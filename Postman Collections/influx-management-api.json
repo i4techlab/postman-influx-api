@@ -9,33 +9,6 @@
 			"name": "Users",
 			"item": [
 				{
-					"name": "Create",
-					"id": "3881abb9-9750-41a6-82b5-69bf34e8e42d",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "POST",
-						"header": [],
-						"url": {
-							"raw": "{{host}}/query?q=create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'",
-							"host": [
-								"{{host}}"
-							],
-							"path": [
-								"query"
-							],
-							"query": [
-								{
-									"key": "q",
-									"value": "create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
 					"name": "Show",
 					"id": "c344e482-df7c-42bd-9911-e381d39d8413",
 					"protocolProfileBehavior": {
@@ -56,6 +29,33 @@
 								{
 									"key": "q",
 									"value": "show users"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"id": "3881abb9-9750-41a6-82b5-69bf34e8e42d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/query?q=create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "create user tfg_aleixvilar with password 'MrxnB6DtDYRnPbLy'"
 								}
 							]
 						}
@@ -335,27 +335,27 @@
 	],
 	"variable": [
 		{
-			"id": "7ca37175-c886-45c7-9298-b00cf3e4cac5",
+			"id": "f2089bed-06a0-4c93-95ac-71dd01ab8bb0",
 			"key": "newDbName",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "0d99c101-cdfc-4fec-acb1-e365085f3a27",
+			"id": "ce48a7a1-bf4b-4d47-a4e8-d70e566e47ca",
 			"key": "db",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "67ba1964-777a-44b7-a094-71e28c98ba20",
+			"id": "56d97e59-8423-4c8f-840f-2068d52ea04f",
 			"key": "host",
 			"value": "http://docencia.i4techlab.upc.edu:8086"
 		},
 		{
-			"id": "47121f91-327e-4109-8301-f00625380340",
+			"id": "a9de921d-48a3-40ed-b02b-665a092b7fd7",
 			"key": "user",
 			"value": "admin"
 		},
 		{
-			"id": "11dbde0e-0a18-42a1-b7a4-aa92e01c8117",
+			"id": "067f1560-49e6-4965-a65e-cf52b6c5245c",
 			"key": "measurement",
 			"value": "IIoTandCPS"
 		}
