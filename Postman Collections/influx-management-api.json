@@ -6,6 +6,11 @@
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "1b46b469-3895-45ee-89aa-1794e6bf5298"
+		},
+		{
 			"name": "Show Databases",
 			"id": "9eb58844-2e57-4a34-8e80-d4041e63042c",
 			"protocolProfileBehavior": {
@@ -329,27 +334,27 @@
 	],
 	"variable": [
 		{
-			"id": "3e0e28a0-b26a-428e-a0b1-523b9beeea79",
+			"id": "6a17bef4-c0ce-4371-ac01-b01d3abab380",
 			"key": "newDbName",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "7b1c5171-b1cc-4ab4-8935-cbd3c36cc13c",
+			"id": "abd58d22-5c30-43ec-aca6-d02ed111f3e3",
 			"key": "db",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "becbf0ff-5b06-427d-bfbb-944697f08a1e",
+			"id": "bbee45ee-01ea-4299-a04d-cbf4251971ca",
 			"key": "host",
 			"value": "http://docencia.i4techlab.upc.edu:8086"
 		},
 		{
-			"id": "ee2fcd6a-44a1-41e2-9f0b-235221a4a399",
+			"id": "a74422b5-567b-4afd-ac61-918f8a1730c7",
 			"key": "user",
 			"value": "admin"
 		},
 		{
-			"id": "fc25d6da-b3d2-48cd-bde9-40ec716a60fb",
+			"id": "3f235494-8ace-41e6-a92b-3060c31eacc0",
 			"key": "measurement",
 			"value": "IIoTandCPS"
 		}
