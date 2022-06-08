@@ -335,29 +335,34 @@
 	],
 	"variable": [
 		{
-			"id": "f2089bed-06a0-4c93-95ac-71dd01ab8bb0",
+			"id": "bbe22989-95ba-49c3-bf35-fe46b5a114d8",
 			"key": "newDbName",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "ce48a7a1-bf4b-4d47-a4e8-d70e566e47ca",
+			"id": "e6e9f75e-5d9b-487c-941d-cbed8a9f6678",
 			"key": "db",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "56d97e59-8423-4c8f-840f-2068d52ea04f",
+			"id": "00ee06fc-abca-49ec-8035-e84e2db9ed09",
 			"key": "host",
 			"value": "http://docencia.i4techlab.upc.edu:8086"
 		},
 		{
-			"id": "a9de921d-48a3-40ed-b02b-665a092b7fd7",
+			"id": "3bb94ceb-b021-4ae6-b1e9-7e5bba6a9f72",
 			"key": "user",
 			"value": "admin"
 		},
 		{
-			"id": "067f1560-49e6-4965-a65e-cf52b6c5245c",
+			"id": "ba9d5d87-cca4-4c84-904b-4941ec74d3b1",
 			"key": "measurement",
 			"value": "IIoTandCPS"
+		},
+		{
+			"id": "11ce3d11-fd34-4966-bcc5-a3cf1dddfbaa",
+			"key": "newUser",
+			"value": "tfg_aleixvilar "
 		}
 	]
 }
