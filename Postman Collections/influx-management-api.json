@@ -36,7 +36,7 @@
 					"response": []
 				},
 				{
-					"name": "Show Users",
+					"name": "Show",
 					"id": "c344e482-df7c-42bd-9911-e381d39d8413",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -335,27 +335,27 @@
 	],
 	"variable": [
 		{
-			"id": "c38e0c2a-7e6b-47ed-ab7b-6dc4cbf7a49c",
+			"id": "9f6a23a8-4a5e-47a9-b0a0-10b8946b7cf4",
 			"key": "newDbName",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "f1138506-76ca-40fb-aa07-f12d0750b9d0",
+			"id": "b929902a-b704-4f22-b668-054670a6a6bb",
 			"key": "db",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "771fc03b-3ffa-4300-9c50-50cbc762bda2",
+			"id": "2ea61a1b-a341-4bab-8187-6b98446feacf",
 			"key": "host",
 			"value": "http://docencia.i4techlab.upc.edu:8086"
 		},
 		{
-			"id": "35edc3af-bc1d-422f-924a-02b51295e083",
+			"id": "15b03d1e-e9d8-4920-ae5f-7d899050913a",
 			"key": "user",
 			"value": "admin"
 		},
 		{
-			"id": "7fdf7a71-177d-4f7f-a5a1-d6069a70828e",
+			"id": "db3b5578-7692-4b13-94d4-ce6dcece1f7a",
 			"key": "measurement",
 			"value": "IIoTandCPS"
 		}
