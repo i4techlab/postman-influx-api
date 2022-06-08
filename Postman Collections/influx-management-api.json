@@ -34,6 +34,33 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Show Users",
+					"id": "c344e482-df7c-42bd-9911-e381d39d8413",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/query?q=show users",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"query"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "show users"
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "1b46b469-3895-45ee-89aa-1794e6bf5298"
@@ -275,33 +302,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "Show Users",
-			"id": "c344e482-df7c-42bd-9911-e381d39d8413",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "{{host}}/query?q=show users",
-					"host": [
-						"{{host}}"
-					],
-					"path": [
-						"query"
-					],
-					"query": [
-						{
-							"key": "q",
-							"value": "show users"
-						}
-					]
-				}
-			},
-			"response": []
 		}
 	],
 	"auth": {
@@ -335,27 +335,27 @@
 	],
 	"variable": [
 		{
-			"id": "25261320-b62f-46eb-9a10-21c4898a0dfc",
+			"id": "67cbc5b5-bb81-435e-b89c-b49ceb209f7c",
 			"key": "newDbName",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "50e913c4-73c5-4e88-9c76-58bb6401d444",
+			"id": "297a2872-e5d5-4474-bdd6-d4c3fb1b4e5b",
 			"key": "db",
 			"value": "IIoTandCPS"
 		},
 		{
-			"id": "a07cfb08-1de2-4342-9be0-0bfb6f4df97c",
+			"id": "41724254-3cf3-493f-b717-2a71e07260b1",
 			"key": "host",
 			"value": "http://docencia.i4techlab.upc.edu:8086"
 		},
 		{
-			"id": "32cccce8-a88d-4a25-b18d-71bafd999250",
+			"id": "47dc69b0-96f4-4e31-b613-7b06d36c6add",
 			"key": "user",
 			"value": "admin"
 		},
 		{
-			"id": "88a8fe40-0b54-4365-a668-73fafc56922b",
+			"id": "8b815574-0239-44bc-a8e0-a26867f506b8",
 			"key": "measurement",
 			"value": "IIoTandCPS"
 		}
